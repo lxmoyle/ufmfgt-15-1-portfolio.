@@ -34,7 +34,8 @@ END
 
 Task 1 Pseudo code and screenshot of code
 
-1. Declare an int variable for the sensor ID and assign the value 99.
+START
+1. Declare an int variable for the sensor ID and assigns the value 99.
 2. Declare a float variable for the temperature and assign the value 12.34.
 3. Declare a char variable for the status code and assign the value 'A'.
 4. Print the values of the variables with descriptive labels.
@@ -44,13 +45,21 @@ Task 1 Pseudo code and screenshot of code
 
 Task 2 pseudocode and screenshot
 
-1. Prompt the user for a two-digit number.
-2. Read the number into an integer.
-3. Extract the first and second digits using division and modulo operations:
-4. First digit: number / 10
-5. Second digit: number % 10
-6. Recombine the digits in reverse order to form the new number.
-7. Print the reversed number.
+START
+
+Ask the user to enter a two-digit number
+
+Read number
+
+Calculate the first digit by dividing the number by 10
+
+Calculate the second digit using modulus 10
+
+Reverse digits
+
+Displays the reversed number
+
+END
 <img width="1373" height="977" alt="image" src="https://github.com/user-attachments/assets/f4470106-d162-43be-8cdd-c0fd80a2432c" />
 
 Task 3
@@ -68,9 +77,19 @@ Task 4 flowchart and code
 
 Task 5 pseudocode and code
 
-1. Prompts the user for a start value and interval.
-2. For each step, calculate f(x) using the provided formula
-3. Display results in a table.
+START
+
+Ask the user for the starting value
+
+Ask user for an interval
+
+FOR each step
+
+   Calculate the function value
+
+   Displays the result
+
+END 
 
    <img width="1895" height="986" alt="image" src="https://github.com/user-attachments/assets/1e91dcfc-ad88-4157-b831-6ac9d9e02dfb" />
 
@@ -89,11 +108,25 @@ Task 7
 
 Task 1
 Pseudo Code
-1. Prompt the user for four temperature readings.
-2. Compare the first two readings to find the smaller of the two.
-3. Compare the minimum of the first two readings with the third.
-4. Compare the current minimum with the fourth reading.
-5. Display the smallest value.
+
+ START
+
+Ask user for 4 numbers
+
+Set the minimum to the first number
+
+Compares the second number with the minimum
+Update minimum if needed
+
+Compares the third number with the minimum
+Update minimum if needed
+
+Compares the fourth number with the minimum
+Update minimum if needed
+
+Display minimum value
+
+END
 
 Code
 
@@ -105,9 +138,17 @@ Task 2
 
 Pseudocode
 
-Prompt the user for four temperature readings.
-Compare and swap values to arrange the temperatures in ascending order.
-Repeat for descending order.
+START
+
+Ask the user for 4 numbers
+
+Compare and swap numbers until sorted
+
+Display ascending order
+
+Display descending order
+
+END
 
 Code
 <img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/a33fe7fe-36b4-448c-b4a6-2e3f1cb5c2a6" />
@@ -116,36 +157,63 @@ Code
 Task 3
 Pseudocode
 
-1.Generate a random secret number between 1 and 100.
-2. Prompt the user to guess the number (up to 3 times).
-3. Compare the guessed number with the secret number and provide feedback on whether it's too high or too low.
-4. If correct, display a success message; otherwise, inform the user of the remaining attempts.
+START
 
+Generate a random number between 1 and 100
+
+Ask the user for the first guess
+
+IF correct
+   Display success
+ELSE
+   Tell the user if it is too high or too low
+
+Repeat for the second guess
+
+Repeat for the third guess
+
+If still incorrect
+   Display the correct number
+
+END
 Code
 
 <img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/9c70bf38-c96a-4881-b0e7-1615584ca8ab" />
 
 Task 4
 
-Pseudocode
-
 START
-INPUT grade
 
-IF grade outside 0-100
-   PRINT error
+Ask user to enter a grade
+
+IF grade is less than 0 OR greater than 100
+
+   Display error message
+
 ELSE
-   DIVIDE grade by 10
+
+   Divide grade by 10
 
    SWITCH result
-      10, 9, 8 → A
-      7, 6 → B
-      5, 4 → C
-      3 → D
-      default → F
-END
 
-   
+      10, 9, 8
+         Display Grade A
+
+      7, 6
+         Display Grade B
+
+      5, 4
+         Display Grade C
+
+      3
+         Display Grade D
+
+      Default
+         Display Grade F
+
+END SWITCH
+
+END
 Code
 
 <img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/88a262db-89a5-4a26-b07a-44e1c3e8a523" />
@@ -160,7 +228,7 @@ INPUT number
 IF outside range
    PRINT error
 ELSE
-   CHECK positive / negative / zero
+   CHECK positive/negative / zero
    CHECK odd / even
 END
 
@@ -192,16 +260,19 @@ Task 1
 
 Pseudocode
 START
+Create array of size 10
 
-DECLARE array[10]
+FOR each array position
 
-FOR i = 0 to 9
-    array[i] = -1.0
+   Set value to -1.0
+
 END FOR
 
-FOR i = 0 to 9
-    PRINT array[i]
-END FOR
+FOR each array position
+
+   Display value
+
+END
 
 END
 Code
@@ -213,30 +284,27 @@ Task 2
 Pseudocode
 START
 
-DECLARE array with 8 float values
+Create array of signal values
 
-SET min = first element
-SET max = first element
-SET sum = 0
+Set minimum to first value
+Set maximum to first value
+Set sum to 0
 
-FOR each element
-    IF element < min
-        min = element
-    ENDIF
+FOR each value
 
-    IF element > max
-        max = element
-    ENDIF
+   Compare with minimum
+   Compare with maximum
+   Add to sum
 
-    sum = sum + element
 END FOR
 
-average = sum / 8
+Calculate average
 
-PRINT min, max, average
+Display minimum
+Display maximum
+Display average
 
 END
-
 Code
 <img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/7338584e-f194-408a-bde5-e9b5c4444e65" />
 
@@ -244,24 +312,29 @@ Code
 Task 3
 
 Pseudocode
+
 START
 
-DECLARE integer array
+Create integer array
 
-SET positiveCount = 0
-SET negativeCount = 0
-SET zeroCount = 0
+Set positive counter to 0
+Set negative counter to 0
+Set zero counter to 0
 
 FOR each element
-    IF element > 0
-        positiveCount++
-    ELSE IF element < 0
-        negativeCount++
-    ELSE
-        zeroCount++
+
+   IF positive
+      Increase positive counter
+
+   ELSE IF negative
+      Increase negative counter
+
+   ELSE
+      Increase zero counter
+
 END FOR
 
-PRINT all counts
+Display all counters
 
 END
 
@@ -276,23 +349,25 @@ Pseudocode
 
 START
 
-DECLARE array of 15 values
+Create array of values
 
-INPUT target
+Ask user for target value
 
-SET found = 0
+Set found to false
 
 FOR each element
-    IF element = target
-        PRINT position
-        found = 1
-        BREAK
-    ENDIF
+
+   IF element matches target
+
+      Display position
+      Set found to true
+      Stop loop
+
 END FOR
 
-IF found = 0
-    PRINT not found
-ENDIF
+IF not found
+
+   Display not found message
 
 END
 
@@ -306,10 +381,12 @@ Pseudocode
 
 START
 
-DECLARE char array
+Create character array
 
-FOR i = last index down to 0
-    PRINT array[i]
+FOR each element from last to first
+
+   Display character
+
 END FOR
 
 END
@@ -324,12 +401,14 @@ Task 1
 Pseudocode
 START
 
-CREATE function print_welcome_message
-    PRINT welcome text
-END FUNCTION
+Create welcome function
 
-MAIN
-    CALL print_welcome_message
+Display welcome message
+
+MAIN PROGRAM
+
+Call welcome function
+
 END
 
 Code
@@ -344,15 +423,20 @@ Pseudocode
 
 START
 
-CREATE function add_numbers(a, b)
-    RETURN a + b
-END FUNCTION
+Create add function
 
-MAIN
-    INPUT num1, num2
-    result = add_numbers(num1, num2)
-    PRINT result
+Return first number + second number
+
+MAIN PROGRAM
+
+Ask user for two numbers
+
+Call add function
+
+Display result
+
 END
+
 Code
 <img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/64417b45-d840-42cc-b020-6ba3c4ed2a3c" />
 
@@ -363,18 +447,23 @@ Pseudocode
 
 START
 
-CREATE circumference(radius)
-    RETURN 2 * PI * radius
+Create circumference function
 
-CREATE area(radius)
-    RETURN PI * radius * radius
+Calculate circumference
 
-MAIN
-    INPUT radius
-    PRINT circumference
-    PRINT area
+Create area function
+
+Calculate area
+
+MAIN PROGRAM
+
+Ask user for radius
+
+Call both functions
+
+Display results
+
 END
-
 Code
 
 <img width="1919" height="1023" alt="image" src="https://github.com/user-attachments/assets/5fdba892-fd30-4ab7-b1f5-de6841a227d8" />
@@ -386,19 +475,21 @@ Pseudocode
 
 START
 
-CREATE is_even(number)
-    IF divisible by 2
-        RETURN 1
-    ELSE
-        RETURN 0
+Create even-check function
 
-MAIN
-    INPUT number
+IF divisible by 2
+   Return true
+ELSE
+   Return false
 
-    IF is_even(number)
-        PRINT Even
-    ELSE
-        PRINT Odd
+MAIN PROGRAM
+
+Ask user for number
+
+Call function
+
+Display even or odd
+
 END
 code
 
@@ -409,18 +500,24 @@ Task 5
 Pseudocode
 START
 
-CREATE power(base, exponent)
+Create power function
 
-SET result = 1
+Set result to 1
 
-FOR i = 1 to exponent
-    result = result * base
+Repeat exponent times
 
-RETURN result
+   Multiply result by base
 
-MAIN
-    INPUT base, exponent
-    PRINT result
+Return result
+
+MAIN PROGRAM
+
+Ask user for base and exponent
+
+Call function
+
+Display answer
+
 END
 
 Code
@@ -445,4 +542,3 @@ Pass by value means that the changes made in the function affect only the origin
 
 Function prototypes allow us to make sure that the function works before it's implemented into longer code.
 
-Week 6
