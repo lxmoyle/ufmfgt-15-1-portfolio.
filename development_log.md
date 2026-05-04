@@ -318,6 +318,130 @@ Code
 <img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/3a8ad178-dc98-44a7-a10e-18a92b15d85d" />
 
 
+**Week 5**
+Task 1
+
+Pseudocode
+START
+
+CREATE function print_welcome_message
+    PRINT welcome text
+END FUNCTION
+
+MAIN
+    CALL print_welcome_message
+END
+
+Code
+<img width="1917" height="1027" alt="image" src="https://github.com/user-attachments/assets/9e9acef3-d3a5-4536-a818-1426ad275901" />
 
 
+
+
+Task 2
+
+Pseudocode
+
+START
+
+CREATE function add_numbers(a, b)
+    RETURN a + b
+END FUNCTION
+
+MAIN
+    INPUT num1, num2
+    result = add_numbers(num1, num2)
+    PRINT result
+END
+Code
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/64417b45-d840-42cc-b020-6ba3c4ed2a3c" />
+
+
+Task 3
+
+Pseudocode
+
+START
+
+CREATE circumference(radius)
+    RETURN 2 * PI * radius
+
+CREATE area(radius)
+    RETURN PI * radius * radius
+
+MAIN
+    INPUT radius
+    PRINT circumference
+    PRINT area
+END
+
+Code
+
+<img width="1919" height="1023" alt="image" src="https://github.com/user-attachments/assets/5fdba892-fd30-4ab7-b1f5-de6841a227d8" />
+
+
+Task 4
+
+Pseudocode
+
+START
+
+CREATE is_even(number)
+    IF divisible by 2
+        RETURN 1
+    ELSE
+        RETURN 0
+
+MAIN
+    INPUT number
+
+    IF is_even(number)
+        PRINT Even
+    ELSE
+        PRINT Odd
+END
+code
+
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/a552da3d-2054-4061-a6ff-6f22c64087d5" />
+
+Task 5
+
+Pseudocode
+START
+
+CREATE power(base, exponent)
+
+SET result = 1
+
+FOR i = 1 to exponent
+    result = result * base
+
+RETURN result
+
+MAIN
+    INPUT base, exponent
+    PRINT result
+END
+
+Code
+
+<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/d98aa092-5172-4f14-aad6-3f058bd9f741" />
+
+
+Task 6
+
+Code
+
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/2ce46a45-f89b-4fd5-a3a2-dfa7933bb855" />
+
+**What was the most difficult part?**
+Realising that although the code actually looked like it would work, it doesn't because C passes the copies of variables.
+
+**Explain "Pass by Value in your own words**
+
+Pass by value means that the changes made in the function affect only the originals and not the copies.
+
+**Why are function prototypes important?**
+
+Function prototypes allow us to make sure that the function works before it's implemented into longer code.
 
