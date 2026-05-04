@@ -30,7 +30,7 @@ END
 <img width="1373" height="972" alt="image" src="https://github.com/user-attachments/assets/b1597378-b600-475f-ac6a-830d6403ec34" />
 
 
-Week 2
+**Week 2**
 
 Task 1 Pseudo code and screenshot of code
 
@@ -79,8 +79,73 @@ Task 6
 
 <img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/50ab0bf4-e845-46a3-b183-984d7bd28712" />
 
-
 Task 7
 
 <img width="1918" height="1032" alt="image" src="https://github.com/user-attachments/assets/a5ae3ce6-ab32-42cc-af63-e27025159e95" />
+
+
+
+**Week 3 **
+
+Task 1
+Pseudo Code
+1. Prompt the user for four temperature readings.
+2. Compare the first two readings to find the smaller of the two.
+3. Compare the minimum of the first two readings with the third.
+4. Compare the current minimum with the fourth reading.
+5. Display the smallest value.
+
+Code
+
+
+<img width="1919" height="1036" alt="image" src="https://github.com/user-attachments/assets/72651526-f609-4d55-8b4f-70c687eb48f9" />
+
+
+Task 2
+
+Pseudocode
+
+Prompt the user for four temperature readings.
+Compare and swap values to arrange the temperatures in ascending order.
+Repeat for descending order.
+
+Code
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/a33fe7fe-36b4-448c-b4a6-2e3f1cb5c2a6" />
+
+
+Task 3
+Pseudocode
+
+1.Generate a random secret number between 1 and 100.
+2. Prompt the user to guess the number (up to 3 times).
+3. Compare the guessed number with the secret number and provide feedback on whether it's too high or too low.
+4. If correct, display a success message; otherwise, inform the user of the remaining attempts.
+
+Code
+
+<img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/9c70bf38-c96a-4881-b0e7-1615584ca8ab" />
+
+Task 4
+
+Pseudocode
+1. Prompt the user for a signal strength between 0 and 100.
+2. Use the switch statement to classify the signal strength into categories:
+A (80-100)
+B (60-79)
+C (40-59)
+D (30-39)
+F (0-29)
+3. Handle inputs outside the valid range (0-100).
+
+
+   
+Code
+
+
+   
+Task 5
+
+
+Task 8
+
 
