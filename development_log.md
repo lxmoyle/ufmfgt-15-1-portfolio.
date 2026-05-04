@@ -128,24 +128,64 @@ Code
 Task 4
 
 Pseudocode
-1. Prompt the user for a signal strength between 0 and 100.
-2. Use the switch statement to classify the signal strength into categories:
-A (80-100)
-B (60-79)
-C (40-59)
-D (30-39)
-F (0-29)
-3. Handle inputs outside the valid range (0-100).
 
+START
+INPUT grade
+
+IF grade outside 0-100
+   PRINT error
+ELSE
+   DIVIDE grade by 10
+
+   SWITCH result
+      10, 9, 8 → A
+      7, 6 → B
+      5, 4 → C
+      3 → D
+      default → F
+END
 
    
 Code
 
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/88a262db-89a5-4a26-b07a-44e1c3e8a523" />
 
    
 Task 5
+Pseudocode
+
+START
+INPUT number
+
+IF outside range
+   PRINT error
+ELSE
+   CHECK positive / negative / zero
+   CHECK odd / even
+END
+
+code
+<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/c20291d9-8d6b-4635-a9b9-e7ed7508b6db" />
 
 
 Task 8
+
+pseudocode
+START
+INPUT character
+
+IF lowercase
+   CONVERT to uppercase
+
+PRINT character
+END
+
+
+code
+
+<img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/3c57e077-24d0-4c24-98d6-98d1c83e52b6" />
+
+
+
 
 
