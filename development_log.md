@@ -445,3 +445,4 @@ Pass by value means that the changes made in the function affect only the origin
 
 Function prototypes allow us to make sure that the function works before it's implemented into longer code.
 
+Week 6
