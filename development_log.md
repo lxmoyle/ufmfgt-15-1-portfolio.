@@ -186,6 +186,138 @@ code
 <img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/3c57e077-24d0-4c24-98d6-98d1c83e52b6" />
 
 
+**Week 4**
+
+Task 1
+
+Pseudocode
+START
+
+DECLARE array[10]
+
+FOR i = 0 to 9
+    array[i] = -1.0
+END FOR
+
+FOR i = 0 to 9
+    PRINT array[i]
+END FOR
+
+END
+Code
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/6c99bfa2-6ca7-4080-a77b-9f360b710f60" />
+
+
+Task 2
+
+Pseudocode
+START
+
+DECLARE array with 8 float values
+
+SET min = first element
+SET max = first element
+SET sum = 0
+
+FOR each element
+    IF element < min
+        min = element
+    ENDIF
+
+    IF element > max
+        max = element
+    ENDIF
+
+    sum = sum + element
+END FOR
+
+average = sum / 8
+
+PRINT min, max, average
+
+END
+
+Code
+<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/7338584e-f194-408a-bde5-e9b5c4444e65" />
+
+
+Task 3
+
+Pseudocode
+START
+
+DECLARE integer array
+
+SET positiveCount = 0
+SET negativeCount = 0
+SET zeroCount = 0
+
+FOR each element
+    IF element > 0
+        positiveCount++
+    ELSE IF element < 0
+        negativeCount++
+    ELSE
+        zeroCount++
+END FOR
+
+PRINT all counts
+
+END
+
+code
+
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/cd6eb8b5-d8e9-4077-9eb6-ca779828b4b5" />
+
+
+Task 4
+
+Pseudocode
+
+START
+
+DECLARE array of 15 values
+
+INPUT target
+
+SET found = 0
+
+FOR each element
+    IF element = target
+        PRINT position
+        found = 1
+        BREAK
+    ENDIF
+END FOR
+
+IF found = 0
+    PRINT not found
+ENDIF
+
+END
+
+code
+
+<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/8dc747a4-b3ce-49f6-8e9c-f7bdf66c98a8" />
+
+Task 5
+
+Pseudocode
+
+START
+
+DECLARE char array
+
+FOR i = last index down to 0
+    PRINT array[i]
+END FOR
+
+END
+
+Code
+<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/3a8ad178-dc98-44a7-a10e-18a92b15d85d" />
+
+
 
 
 
